@@ -1,0 +1,2 @@
+# wiprotraining
+Training assignments
