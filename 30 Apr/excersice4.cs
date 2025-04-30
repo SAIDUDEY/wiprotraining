@@ -1,17 +1,14 @@
 using System;
-
-public class SquarePrinter
+public class sqaure
 {
     public static void Main(string[] args)
     {
-        for (int i = 1; ; i++)
-        {
-            int square = i * i;
-            if (square > 100)
-            {
-                break;
-            }
-            Console.WriteLine($"The square of {i} is {square}");
+        int num = int.Parse(Console.ReadLine());
+        for(int i=num ;i*i<=100;i++){
+            Console.WriteLine(i*i);
         }
-    }
-}
+        
+        
+            
+        }
+    }
