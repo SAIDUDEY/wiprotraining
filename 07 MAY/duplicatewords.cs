@@ -15,18 +15,13 @@ class Program
         Method(s, b);
     }
 
-<<<<<<< HEAD:07 MAY/DUPLICATWORDS.cs
     public static void Method(string[] s, bool[] b)
     {
-=======
-        public static void Method(string[] s, bool[] b)
-        {
->>>>>>> d6a8b2285713e958cb3843fb9a13bbd64b81270f:07 MAY/DUPLICATWORDS.sql
         for (int i = 0; i < s.Length; i++)
         {
             if (b[i] == false)
             {
-              for(int j = i + 1; j < s.Length; j++)
+                for (int j = i + 1; j < s.Length; j++)
                 {
                     if (s[i] == s[j])
                     {
@@ -43,21 +38,7 @@ class Program
                 Console.WriteLine(s[k]);
             }
         }
-        for(int k = 0; k < b.Length; k++)
-        {
-            if (b[k] == true) {
-
-                Console.WriteLine(s[k]);
-            }
-        }
-       }
-    
-      
     }
-<<<<<<< HEAD:07 MAY/DUPLICATWORDS.cs
 
 
 }
-=======
-//
->>>>>>> d6a8b2285713e958cb3843fb9a13bbd64b81270f:07 MAY/DUPLICATWORDS.sql
