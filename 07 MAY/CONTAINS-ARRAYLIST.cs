@@ -12,8 +12,15 @@ class Program
 
         list.Remove(3.14);
 
+        if (list.Contains("apple"))
+        
+            Console.WriteLine($"element found :");
 
-        }
+        else
+        
+            Console.WriteLine($"element not found");
+
+       
 
         foreach (var item in list)
         {
