@@ -8,6 +8,7 @@ class Program
     {
         ArrayList names = new ArrayList() {"sai", "bala", "dude", "vinay" };
         names.Sort();
+        names.Remove("sai");
 
         Console.WriteLine("enter a student name :");
         string NametoCheck = Console.ReadLine();
