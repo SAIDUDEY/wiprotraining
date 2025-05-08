@@ -23,6 +23,6 @@ class Program
         {
             Console.WriteLine(employees);
         }
-        Console.WriteLine("count :" + employee.Count);
+        Console.WriteLine("total num of employees : " + employee.Count);
     }
 }
