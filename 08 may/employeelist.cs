@@ -23,5 +23,6 @@ class Program
         {
             Console.WriteLine(employees);
         }
+        Console.WriteLine("count :" + employee.Count);
     }
 }
