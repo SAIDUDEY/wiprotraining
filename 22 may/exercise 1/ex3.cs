@@ -21,7 +21,7 @@ static void Main()
 
         foreach (var product in linqProduct)
         {
-            Console.WriteLine("product names : " + product.Name + " ");
+            Console.WriteLine("product price > 500 : " + product.Name + " ");
         }
 
 
