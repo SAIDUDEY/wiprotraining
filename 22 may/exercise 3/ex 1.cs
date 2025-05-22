@@ -100,11 +100,11 @@ class Program
 
         {
 
-            VehicleNumber = "CAR123",
+            VehicleNumber = "AP37DW4423",
 
             Brand = "Toyota",
 
-            RatePerDay = 100
+            RatePerDay = 3100
 
         };
 
@@ -112,11 +112,11 @@ class Program
 
         {
 
-            VehicleNumber = "BIKE456",
+            VehicleNumber = "AP37DW3456",
 
             Brand = "Yamaha",
 
-            RatePerDay = 50
+            RatePerDay = 550
 
         };
 
@@ -124,11 +124,11 @@ class Program
 
         {
 
-            VehicleNumber = "TRUCK789",
+            VehicleNumber = "AP43DW2789",
 
             Brand = "Volvo",
 
-            RatePerDay = 200
+            RatePerDay = 10200
 
         };
 
