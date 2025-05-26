@@ -12,11 +12,11 @@ public class ParallelTaskErrors
         
         List<Task> tasks = new List<Task>
         {
-            ProcessDataAsync("Task 1 (Success)", 200, false), // This task will succeed
-            ProcessDataAsync("Task 2 (Error)", 300, true),   // This task will throw an exception
-            ProcessDataAsync("Task 3 (Success)", 150, false), // This task will succeed
-            ProcessDataAsync("Task 4 (Error)", 400, true),   // This task will throw an exception
-            ProcessDataAsync("Task 5 (Success)", 250, false)  // This task will succeed
+            ProcessDataAsync("Task 1 (Success)", 200, false), 
+            ProcessDataAsync("Task 2 (Error)", 300, true),   
+            ProcessDataAsync("Task 3 (Success)", 150, false), 
+            ProcessDataAsync("Task 4 (Error)", 400, true),  
+            ProcessDataAsync("Task 5 (Success)", 250, false)  
         };
 
         try
@@ -61,7 +61,7 @@ public class ParallelTaskErrors
     private static async Task ProcessDataAsync(string taskName, int delayMs, bool shouldThrow)
     {
         Console.WriteLine($"{taskName}: Starting (Delay: {delayMs}ms)");
-        await Task.Delay(delayMs); // Simulate work
+        await Task.Delay(delayMs); 
 
         if (shouldThrow)
         {

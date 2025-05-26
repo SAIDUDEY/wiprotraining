@@ -9,7 +9,7 @@ namespace ConsoleAppM26
     public class Transaction
     {
         public DateTime Date { get; set; }
-        public string Type { get; set; } // "Deposit" or "Withdraw"
+        public string Type { get; set; }
         public decimal Amount { get; set; }
 
         public override string ToString()
