@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Marks Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo">
+            <span class="logo-text">Marks Portal</span>
+        </div>
+        <h1> Student Marks Portal</h1>
+
+        <div class="input-group">
+            <label for="studentId">Enter Your Student ID:</label>
+            <input type="text" id="studentId" placeholder="e.g., S12345">
+        </div>
+
+        <button id="checkMarksBtn">Check Marks</button>
+
+        <div id="marksDisplay" class="marks-display">
+            <h2 id="studentNameDisplay"></h2>
+            <p><span class="subject">Mathematics:</span> <span id="mathMarks"></span></p>
+            <p><span class="subject">Science:</span> <span id="scienceMarks"></span></p>
+            <p><span class="subject">English:</span> <span id="englishMarks"></span></p>
+            <p><span class="subject">History:</span> <span id="historyMarks"></span></p>
+            <hr>
+            <p><span class="subject">Total Marks:</span> <span id="totalMarks"></span></p>
+            <p><span class="subject">Percentage:</span> <span id="percentage"></span></p>
+        </div>
+
+        <div id="errorMessage" class="error-message"></div>
+
+        <div class="team-names">
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

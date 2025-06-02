@@ -1,0 +1,136 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 20px; /* Added padding to body for better spacing on smaller screens */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+    box-sizing: border-box; /* Ensures padding doesn't add to total width/height */
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Logo Styles */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px; /* Space below the logo */
+}
+
+.logo-icon {
+    font-size: 2.5em; /* Adjust size of the emoji icon */
+    margin-right: 10px;
+    color: #3498db; /* Icon color */
+}
+
+.logo-text {
+    font-size: 1.8em; /* Adjust size of the logo text */
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-size: 1.8em; /* Slightly reduced size as logo text is larger */
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px); /* 100% width minus padding and border */
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px; /* Added some space above the button */
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.marks-display {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    text-align: left;
+    display: none; /* Hidden by default */
+}
+
+.marks-display h2 {
+    color: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.marks-display p {
+    margin: 8px 0;
+    font-size: 1.1em;
+}
+
+.marks-display .subject {
+    font-weight: bold;
+    color: #34495e;
+}
+
+.error-message {
+    color: #e74c3c;
+    margin-top: 15px;
+    font-weight: bold;
+    display: none; /* Hidden by default */
+    min-height: 20px; /* Ensure space even when empty to prevent layout shift */
+}
+
+/* Team Names Styles */
+.team-names {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
+
+.team-names p {
+    margin: 0;
+}
