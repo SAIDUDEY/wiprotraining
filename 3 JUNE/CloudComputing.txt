@@ -37,4 +37,4 @@ There are also different ways to deploy cloud services:
 
 3. Hybrid Cloud: Combines public and private clouds, bound together by technology that allows data and applications to be shared between them. This model gives businesses greater flexibility, more deployment options, and helps optimize their existing infrastructure, security, and compliance.
 
-In essence, cloud computing allows individuals and organizations to access and use computing resources more efficiently, scalably, and often more cost-effectively than traditional on-premises solutions.
+In essence, cloud computing allows individuals and organizations to access and use computing resources more efficiently, scalably, and often more cost-effectively than traditional on-premises solutions..
